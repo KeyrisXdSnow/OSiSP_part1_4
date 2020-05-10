@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/keyris/CLionProjects/Laba3/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/wait.h
+-
+sys/stat.h
+-
+dirent.h
+-
+unistd.h
+-
+time.h
+-
+
